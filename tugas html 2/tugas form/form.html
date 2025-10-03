@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form_pendaftaran</title>
+</head>
+<body style="background: linear-gradient(90deg, #40a832 0%,rgb(235, 231, 231) 100% );" >
+  <form action="proses_tambah.php" method="post">
+    <table align ="center" style="background-color: white; padding: 1rem; position: absolute; left: 30%; top: 20%;">
+      <tr> 
+        <td width="120">Nama depan</td>
+        <td><input type="text" name="nama" /></td>
+      </tr>
+      <tr>
+        <td>Nama belakang</td>
+        <td><input type="text" name="alamat" /></td>
+      </tr>
+      <tr>
+        <td>Pasword</td>
+        <td><input type="password" /></td>
+      </tr>
+      <tr>
+        <td>alamat</td>
+        <td><textarea></textarea></td>
+      </tr>
+      <tdr>
+        <td>Jenis kelamin</td>
+        <td>
+          <input type="radio" name="jk" value="laki-laki" />laki-laki
+          <input type="radio" name="jk" value="perempuan" />perempuan
+        </td>
+        </tr>
+        <tr>
+            <td>Olahraga Favorit</td>
+            <td><input type="checkbox" name="olahraga[]" value="sepak bola" />sepak bola
+                     <input type="checkbox" name="olahraga[]" value="basket" />basket
+                      <input type="checkbox" name="olahraga[]" value="renang" />renang
+                       <input type="checkbox" name="olahraga[]" value="badminton" />badminton
+            </td>
+        </tr>
+        <tr>
+            <td>olahraga</td>
+            <td><select>
+                <option value="sepak bola">sepak bola</option>
+                <option value="basket">basket</option>
+                <option value="renang">renang</option>
+                <option value="badminton">badminton</option>
+            </select>
+        </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <input type="submit" value="simpan" />
+                <input type="reset" value="reset" />
+                <input type="button" value="kembali" onclick="self.history.back()" />
+
+            </td>
+        </tr>
+
+    </table>
+  </form>
+</body>
+</html>

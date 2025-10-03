@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dialog Prompt</title>
+</head>
+<body>
+    <h1>Dialog Prompt Example</h1>
+    <button onclick="showPrompt()">Show Prompt</button>
+
+    <script>
+        function showPrompt() {
